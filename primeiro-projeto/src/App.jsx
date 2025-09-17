@@ -8,15 +8,19 @@ import FirstComponent from './components/FirstComponent.jsx'
 import SecondComponent from './components/SecondComponent.jsx'
 
 import TemplateExpressions from './components/TemplateExpressions.jsx'
+import Event from './components/Event.jsx'
+import MostrarImagens from './components/MostrarImagens.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <TemplateExpressions />
+      {/* <TemplateExpressions />
       <SecondComponent />
-      <FirstComponent />
+      <FirstComponent /> */}
+
+      <Event></Event>
+      <MostrarImagens></MostrarImagens>
     </>
   )
 }
